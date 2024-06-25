@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>( ´ ▽ ` )</title>
+<style>
+    .typing-text {
+        color: #06D001;
+        font-size: 24px;
+        font-weight: bold;
+        overflow: hidden;
+        border-right: .15em solid #06D001;
+        white-space: nowrap;
+        margin: 0 auto;
+        letter-spacing: .15em;
+        animation: 
+            typing 3.5s steps(40, end),
+            blink-caret .75s step-end infinite;
+    }
+
+    @keyframes typing {
+        from { width: 0 }
+        to { width: 100% }
+    }
+
+    @keyframes blink-caret {
+        from, to { border-color: transparent }
+        50% { border-color: #06D001; }
+    }
+</style>
+</head>
+    <body>
+    <h1> <center><font color="06D001">Hello everypony </font></center></h1>
+<p>
+    <center><img src="matrix-neo.gif" height="300"></center>
+
+   <center><font color="06D001">Welcome to Mads Purzner's Corner of the Web!</font></center> 
+</p>
+
+<center><div class="typing-text" id="typing-text"></div></center>
+
+<script>
+    const text = "Hey there!";
+    const typingText = document.getElementById('typing-text');
+    let i = 0;
+
+    function typeWriter() {
+        if (i < text.length) {
+            typingText.innerHTML += text.charAt(i);
+            i++;
+            setTimeout(typeWriter, 100);
+        }
+    }
+
+    window.onload = typeWriter;
+</script>
+
+<p>
+    <center><font color="06D001">I'm Mads Purzner, a sophomore at South Shore in Port Wing, Wisconsin. This site is where I share my interests and thoughts.
+    About Me:
+    I'm a student with a passion for gaming, music, and films. When I'm not hitting the books, you can usually find me
+    
+    dropping into Fortnite battles,
+    headbanging to some funk or sludge metal,
+    or binge watching my favorite films.
+    
+    For gaming,
+    Fortnite is my go-to game. I love the fast-paced action and the constant updates that keep things fresh. Maybe we'll cross paths on the battlefield sometime!
+    
+    My taste in music is eclectic, but I have a special place in my heart for
+    
+    funk metal,
+    sludge metal, and
+    jam bands.
+    
+    Primus is one of my all-time favorite bands. Their unique sound and Les Claypool's incredible bass skills never fail to amaze me.
+    Films:
+    I'm a bit of a film buff, with a particular love for
+    
+    comedies,
+    film noir,
+    musicals,
+    and horror.
+
+    Feel free to reach out if you want to chat about any of these topics or if you want recommendations for new music or movies to check out!
+</font>
+</center>
+</p>
+
+<p>
+    <center><img src="countryballs.PNG" height="300"></center>
+
+   <center><font color="06D001">I also like drawing! I made the image below in mspaint during this class. (So cool)</font></center> 
+</p>
+
+<p>
+    <audio  <center>src="238726-044f0d7d-d15f-48d5-b6b0-99e89935f371.mp3" <audio style="background-color: #06D001;" controls>
+        <p>Ocean Man by Ween</p>
+        </audio>
+         <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"><font color="06D001">click here for a surprise!!!</a></font>
+</p>
+
+    </body>
+
+    <body style="background-color: #000000;"></body>
+
+</html>
